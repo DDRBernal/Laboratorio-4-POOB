@@ -74,7 +74,7 @@ public class EquipoTest{
        Equipo eq= new Equipo(nombres);
        try{
            int res = eq.valorHoraEstimado();
-           assertEquals(res,45000);;
+           assertEquals(res,45000);
         }
        catch (EquipoExcepcion e) {
            System.out.println(e.toString());
